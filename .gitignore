@@ -4,6 +4,7 @@
 
 # Ignore JavaScript in TypeScript project
 *.js
+*.map
 node_modules/
 typings/
 
