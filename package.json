@@ -1,0 +1,13 @@
+{
+  "name": "ts.watches",
+  "version": "0.0.0",
+  "description": "ts.watches",
+  "main": "app.js",
+  "author": {
+    "name": "Sebastian",
+    "email": "ja@sebastianbusek.cz"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  }
+}
