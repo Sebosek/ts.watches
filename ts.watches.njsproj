@@ -35,7 +35,7 @@
   <ItemGroup>
     <Content Include="tsconfig.json" />
     <Content Include="tsd.json" />
-    <TypeScriptCompile Include="app.tests.ts">
+    <TypeScriptCompile Include="test\app.tests.ts">
       <SubType>Code</SubType>
       <TestFramework>Mocha</TestFramework>
     </TypeScriptCompile>
@@ -48,6 +48,7 @@
     <TypeScriptCompile Include="watches.ts" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="test\" />
     <Folder Include="typings\" />
     <Folder Include="typings\mocha\" />
     <Folder Include="typings\node\" />

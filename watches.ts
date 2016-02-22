@@ -59,7 +59,7 @@
     export class BrokenWatch extends Watch {
         tick() {
             this.second--;
-            if (this.second <= 0) {
+            if (this.second < 0) {
 
                 this.minute--;
                 this.second = this.second_treshold;
